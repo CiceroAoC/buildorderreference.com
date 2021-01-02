@@ -125,7 +125,8 @@ th {
 	color: var(--color-highlight);
 	border-top: 2px solid var(--color-border);}
 
-table.buildtable, table.benchmarktable {border-bottom: 2px solid var(--color-border);}
+table.buildtable {border-bottom: 2px solid var(--color-border);}
+table.benchmarktable {border-bottom: 2px solid var(--color-border); padding-top: 1.5em;}
 
 table.script {width: min(93vw, 50em);}
 table.script td, table.script th {
