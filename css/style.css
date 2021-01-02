@@ -92,7 +92,7 @@
 body {
 	background-color: var(--color-primary);
 	text-align: center;
-	font-size: max(min(3.2vw, 19px), 12.5px);
+	font-size: max(min(3.2vw, 19px), 13px);
 	margin-top: 5.5em;
 	margin-bottom: 1.5em;
 	text-size-adjust: none;
@@ -226,12 +226,12 @@ th, td, ul, li {
 	line-height: 1.3em;}
 
 h1 {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	margin-top: 0.25em;
 	margin-bottom: 0em;}
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.25em;
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;}
 
