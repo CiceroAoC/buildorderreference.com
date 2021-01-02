@@ -108,7 +108,8 @@ html {overflow-y: scroll;}
 ::selection {background-color: var(--color-accent); color: var(--color-primary);}
 
 p {width: min(93vw, 50em);}
-li, hr {width: min(79.05vw, 42.5em);}
+li {width: min(79.05vw, 42.5em);}
+hr {width: min(55.8vw, 30em); border: none; height: 2px; background-color: var(--color-border);}
 
 .flex-2column, .flex-3column {
 	margin-right: auto;
@@ -207,7 +208,7 @@ p, td, ul, li {
 	font-weight: 400;
 	color: var(--color-font);}
 
-th, h1, h2, h3 {
+th, h1, h2, h3, h4 {
 	font-family: var(--font-primary), serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -239,6 +240,12 @@ h3 {
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;}
 
+h4 {
+	font-size: 1.1em;
+	margin-top: 0.75em;
+	margin-bottom: 0em;
+	text-decoration: underline;}
+
 ul {
 	display: inline-block;
 	list-style-position: inside;
@@ -268,7 +275,6 @@ table {
 	border-spacing: 0;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 2px solid var(--color-border);
 	padding-top: 1em;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;}
@@ -278,21 +284,22 @@ th {
 	color: var(--color-highlight);
 	border-top: 2px solid var(--color-border);}
 
+table.buildtable, table.benchmarktable {border-bottom: 2px solid var(--color-border);}
+
+table.script {width: min(93vw, 50em);}
+table.script td, table.script th {
+	border-bottom: 1px solid var(--color-border);
+	text-align: left;}
+
 col.buildlhs {width: 26em; text-align: left;}
 col.buildrhs {width: 3.5em;}
 col.benchmarklhs {width: 22em;}
 col.benchmarkrhs {width: 3em;}
 col.scriptlhs {width: 6em;}
-col.scriptrhs {width: 44em;}
-
-table.script td, table.script th {
-	border-bottom: 1px solid var(--color-border);
-	text-align: left;}
 
 /* images */
 
 img.resource {width: 1.5em; height: 1.5em; vertical-align: middle;}
-
 img.full {width: min(93vw, 50em); height: min(52.3125vw, 28.125em); border-radius: 0.25em; margin-top: 0.5em; margin-bottom: 0.25em;}
 img.half {width: min(46.5vw, 25em); height: min(26.15625vw, 14.0625em); border-radius: 0.25em; margin-top: 0.5em; margin-bottom: 0.25em;}
 
