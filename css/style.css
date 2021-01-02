@@ -108,8 +108,7 @@ html {overflow-y: scroll;}
 ::selection {background-color: var(--color-accent); color: var(--color-primary);}
 
 p {width: min(93vw, 50em);}
-li {width: min(83.7vw, 45em);}
-hr {width: min(74.4vw, 40em);}
+li, hr {width: min(79.05vw, 42.5em);}
 
 .flex-2column, .flex-3column {
 	margin-right: auto;
@@ -131,7 +130,7 @@ hr {width: min(74.4vw, 40em);}
 p.box {
 	background-color: var(--color-tertiary);
 	border: 1px solid var(--color-border);
-	width: min(46.5vw, 25em);
+	width: min(66vw, 22em);
 	padding: 0.5em;
 	margin-top: 1em;
 	margin-bottom: 1em;}
@@ -243,7 +242,9 @@ h3 {
 ul {
 	display: inline-block;
 	list-style-position: inside;
-	text-align: left;}
+	text-align: left;
+	margin-left: 1.5em;
+	padding-left: 0;}
 
 p.centerjustify {
 	text-align: justify;
