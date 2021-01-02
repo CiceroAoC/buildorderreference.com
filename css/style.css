@@ -57,7 +57,8 @@
 /* buttons */
 
 .button-theme {
-	padding: 0.55em;
+	font-size: 0.5em;
+	padding: 0.6em;
 	display: inline-block;
 	margin: 0px 0px;
 	cursor: pointer;
@@ -71,6 +72,7 @@
 .button-night {background-color: black; border: var(--button-night-border) solid var(--button-night-thickness);}
 
 .button-print {
+	font-size: 0.8em;
 	display: inline-block;
 	background-color: var(--color-tertiary);
 	text-decoration: none;
@@ -224,17 +226,17 @@ th, td, ul, li {
 	line-height: 1.3em;}
 
 h1 {
-	font-size: 1.35em;
+	font-size: 1.4em;
 	margin-top: 0.25em;
 	margin-bottom: 0em;}
 
 h2 {
-	font-size: 1.25em;
+	font-size: 1.3em;
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;}
 
 h3 {
-	font-size: 1.15em;
+	font-size: 1.2em;
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;}
 
