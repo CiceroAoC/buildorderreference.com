@@ -93,7 +93,7 @@ body {
 	background-color: var(--color-primary);
 	text-align: center;
 	font-size: max(min(3.2vw, 19px), 13px);
-	margin-top: 5.5em;
+	margin-top: 5em;
 	margin-bottom: 1.5em;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;}
