@@ -52,69 +52,33 @@
 	--button-night-border: #ccc;
 	--button-night-thickness: 2px;}
 
-:root {--font-primary: 'Alegreya', serif;}
-
-/* buttons */
-
-.button-theme {
-	font-size: 0.5em;
-	padding: 0.6em;
-	display: inline-block;
-	margin: 0px 0px;
-	cursor: pointer;
-	border-radius: 50%;
-	outline: none;
-	vertical-align: middle;
-}
-
-.button-white {background-color: white; border: var(--button-white-border) solid var(--button-white-thickness);}
-.button-sepia {background-color: #d6d1c2; border: var(--button-sepia-border) solid var(--button-sepia-thickness);}
-.button-night {background-color: black; border: var(--button-night-border) solid var(--button-night-thickness);}
-
-.button-print {
-	font-size: 0.8em;
-	display: inline-block;
-	background-color: var(--color-tertiary);
-	text-decoration: none;
-	cursor: pointer;
-	color: var(--color-accent);
-	font-family: var(--font-primary);
-	font-weight: 700;
-	outline: none;
-	vertical-align: top;
-	border: var(--color-border) solid 1px;}
-	
-.button-print:hover {background-color: var(--color-primary);}
-.button-print:active {color: var(--color-font);}
-
 /* general */
+
+html {overflow-y: scroll; font-size: max(min(3.2vw, 19px), 13px); font-family: 'Alegreya', serif;}
 
 body {
 	background-color: var(--color-primary);
 	text-align: center;
-	font-size: max(min(3.2vw, 19px), 13px);
-	margin-top: 5em;
-	margin-bottom: 1.5em;
+	margin-top: 4.5rem;
+	margin-bottom: 1.5rem;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;}
 
-html {overflow-y: scroll;}
-
-::-webkit-scrollbar {width: 0.5em;}
+::-webkit-scrollbar {width: 0.5rem;}
 ::-webkit-scrollbar-track {background: var(--color-secondary);}
 ::-webkit-scrollbar-thumb {background: #888;}
 ::-webkit-scrollbar-thumb:hover {background: #555;}
 
 ::selection {background-color: var(--color-accent); color: var(--color-primary);}
 
-p {width: min(93vw, 50em);}
-li {width: min(79.05vw, 42.5em);}
-hr {width: min(55.8vw, 30em); border: none; height: 2px; background-color: var(--color-border);}
+p {width: min(93vw, 50rem);}
+li {width: min(79.05vw, 42.5rem);}
+hr {width: min(55.8vw, 30rem); border: none; height: 2px; background-color: var(--color-border);}
 
 .flex-2column, .flex-3column {
 	margin-right: auto;
 	margin-left: auto;
-	width: min(96.72vw, 52em);
+	width: min(96.72vw, 52rem);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -124,17 +88,60 @@ hr {width: min(55.8vw, 30em); border: none; height: 2px; background-color: var(-
 	-moz-text-align-last: center;
 	text-align-last: center;}
 
-.flex-3column div{min-width: min(calc(33vw - 3rem), 18rem);}
+.flex-3column div{min-width: min(calc(33vw - 2.4rem), 15.2rem);}
 
 @media (max-width: 64em) {.flex-2column {flex-direction: column;}}
 
 p.box {
 	background-color: var(--color-tertiary);
 	border: 1px solid var(--color-border);
-	width: min(66vw, 22em);
-	padding: 0.5em;
-	margin-top: 1em;
-	margin-bottom: 1em;}
+	width: min(66vw, 22rem);
+	padding: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;}
+
+/* buttons */
+
+.button-theme {
+	font-size: 0.7rem;
+	padding: 0.6em;
+	display: inline-block;
+	margin: 0 0;
+	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	vertical-align: middle;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.button-white {background-color: white; box-shadow: 0 var(--button-white-thickness) var(--button-white-border), var(--button-white-thickness) 0 var(--button-white-border), 0 calc(var(--button-white-thickness) * -1) var(--button-white-border), calc(var(--button-white-thickness) * -1) 0 var(--button-white-border);}
+.button-sepia {background-color: #d6d1c2; box-shadow: 0 var(--button-sepia-thickness) var(--button-sepia-border), var(--button-sepia-thickness) 0 var(--button-sepia-border), 0 calc(var(--button-sepia-thickness) * -1) var(--button-sepia-border), calc(var(--button-sepia-thickness) * -1) 0 var(--button-sepia-border);}
+.button-night {background-color: black; box-shadow: 0 var(--button-night-thickness) var(--button-night-border), var(--button-night-thickness) 0 var(--button-night-border), 0 calc(var(--button-night-thickness) * -1) var(--button-night-border), calc(var(--button-night-thickness) * -1) 0 var(--button-night-border);}
+
+.button-white:active {box-shadow: 0 2px var(--button-white-border), 2px 0 var(--button-white-border), 0 -2px var(--button-white-border), -2px 0 var(--button-white-border);}
+.button-sepia:active {box-shadow: 0 2px var(--button-sepia-border), 2px 0 var(--button-sepia-border), 0 -2px var(--button-sepia-border), -2px 0 var(--button-sepia-border);}
+.button-night:active {box-shadow: 0 2px var(--button-night-border), 2px 0 var(--button-night-border), 0 -2px var(--button-night-border), -2px 0 var(--button-night-border);}
+
+.button-print {
+	font-size: 0.8rem;
+	display: inline-block;
+	background-color: var(--color-tertiary);
+	text-decoration: none;
+	cursor: pointer;
+	color: var(--color-accent);
+	font-family: var(--font-primary);
+	font-weight: 500;
+	outline: none;
+	vertical-align: top;
+	border: var(--color-border) solid 1px;
+	border-radius: 0.5em;
+	box-shadow: 1px 1px var(--color-border);}
+	
+.button-print:hover {background-color: var(--color-primary);}
+.button-print:active {color: var(--color-font); box-shadow: none;}
 
 /* header & footer */
 
@@ -143,27 +150,27 @@ header, footer {
 	background-color: var(--color-secondary);
 	width: 100vw;
 	position: fixed;
-	margin-left: -1em;
-	margin-right: -1em;
+	margin-left: -1rem;
+	margin-right: -1rem;
 	padding: 0.1em 0em;}
 	
 header {
-	margin-top: 0em;
-	margin-bottom: 0em;
-	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1rem;
 	top: 0;
 	box-shadow: 0em 0.1em 0.15em var(--color-shadow);
 	display: block;}
 
 footer {
-	font-size: 0.7em;
+	font-size: 0.7rem;
 	bottom: 0;
 	color: var(--color-font);}
 
 .headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
 .headerA1 {width: 4em;}
 .headerA2 {width: calc(100% - 8em);}
-.headerA3 {width: 4em; text-align: right;}
+.headerA3 {width: 4em; text-align: right; word-spacing: 2px;}
 
 .headerB1, .headerB2, .headerB3, .headerB4, .headerB5 {float: left; margin-bottom: 0;}
 .headerB1 {width: calc(50% - 5.25em);}
@@ -177,18 +184,18 @@ footer {
 a:link, a:visited {color: var(--color-accent);}
 a:hover {font-weight: 500;}
 a:active {color: var(--color-font);}
-header a {text-decoration: none; font-weight: 500; font-size: 0.95em;}
+header a {text-decoration: none; font-weight: 500; font-size: 0.95rem;}
 header a:hover {background-color: var(--color-primary); display: block;}
 a.current {color: var(--color-font); font-weight: 500;}
-a.anchor {display: block; position: relative; top: -3.5em; visibility: hidden;}
+a.anchor {display: block; position: relative; top: -3.5rem; visibility: hidden;}
 
 a.boxlink {
 	display: block;
 	text-decoration: none;
 	font-weight: 400;
 	color: var(--color-font);
-	margin: 0.5em;
-	padding: 0.5em;
+	margin: 0.5rem;
+	padding: 0.5rem;
 	background-color: var(--color-tertiary);
 	border: 1px solid var(--color-border);}
 	
@@ -200,8 +207,6 @@ a.boxlink:active h3 {color: var(--color-font);}
 
 /* styles */
 
-body {font-family: var(--font-primary), serif;}
-
 p, td, ul, li {
 	margin-left: auto;
 	margin-right: auto;
@@ -209,48 +214,47 @@ p, td, ul, li {
 	color: var(--color-font);}
 
 th, h1, h2, h3, h4 {
-	font-family: var(--font-primary), serif;
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: 500;
 	color: var(--color-highlight);}
 
 p {
-	margin-top: 0.25em;
-	margin-bottom: 0.25em;
-	line-height: 1.4em;}
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	line-height: 1.4rem;}
 
 th, td, ul, li {
-	margin-top: 0em;
-	margin-bottom: 0em;
-	line-height: 1.3em;}
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.3rem;}
 
 h1 {
-	font-size: 1.3em;
-	margin-top: 0.25em;
-	margin-bottom: 0em;}
+	font-size: 1.3rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0;}
 
 h2 {
-	font-size: 1.25em;
-	margin-top: 0.5em;
-	margin-bottom: 0.25em;}
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.25rem;}
 
 h3 {
-	font-size: 1.2em;
-	margin-top: 0.5em;
-	margin-bottom: 0.25em;}
+	font-size: 1.1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.25rem;}
 
 h4 {
-	font-size: 1.1em;
-	margin-top: 0.75em;
-	margin-bottom: 0em;
+	font-size: 1.1rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0;
 	text-decoration: underline;}
 
 ul {
 	display: inline-block;
 	list-style-position: inside;
 	text-align: left;
-	margin-left: 1.5em;
+	margin-left: 1.5rem;
 	padding-left: 0;}
 
 p.centerjustify {
@@ -267,7 +271,7 @@ p.bolditalic {
 
 p.comment {
 	text-align: justify;
-	font-size: 0.8em;}
+	font-size: 0.8rem;}
 
 /* tables */
 
@@ -275,7 +279,7 @@ table {
 	border-spacing: 0;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1em;
+	padding-top: 1rem;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;}
 
@@ -285,24 +289,24 @@ th {
 	border-top: 2px solid var(--color-border);}
 
 table.buildtable {border-bottom: 2px solid var(--color-border);}
-table.benchmarktable {border-bottom: 2px solid var(--color-border); padding-top: 1.5em;}
+table.benchmarktable {border-bottom: 2px solid var(--color-border); padding-top: 1.5rem;}
 
-table.script {width: min(93vw, 50em);}
+table.script {width: min(93vw, 50rem);}
 table.script td, table.script th {
 	border-bottom: 1px solid var(--color-border);
 	text-align: left;}
 
-col.buildlhs {width: 26em; text-align: left;}
-col.buildrhs {width: 3.5em;}
-col.benchmarklhs {width: 22em;}
-col.benchmarkrhs {width: 3em;}
-col.scriptlhs {width: 6em;}
+col.buildlhs {width: 26rem; text-align: left;}
+col.buildrhs {width: 3.5rem;}
+col.benchmarklhs {width: 22rem;}
+col.benchmarkrhs {width: 3rem;}
+col.scriptlhs {width: 6rem;}
 
 /* images */
 
-img.resource {width: 1.5em; height: 1.5em; vertical-align: middle;}
-img.full {width: min(93vw, 50em); height: min(52.3125vw, 28.125em); border-radius: 0.25em; margin-top: 0.5em; margin-bottom: 0.25em;}
-img.half {width: min(46.5vw, 25em); height: min(26.15625vw, 14.0625em); border-radius: 0.25em; margin-top: 0.5em; margin-bottom: 0.25em;}
+img.resource {width: 1.5rem; height: 1.5rem; vertical-align: middle;}
+img.full {width: min(93vw, 50rem); height: min(52.3125vw, 28.125rem); border-radius: 0.25rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
+img.half {width: min(46.5vw, 25rem); height: min(26.15625vw, 14.0625rem); border-radius: 0.25rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
 
 /* make visible (FOUC) */
 
