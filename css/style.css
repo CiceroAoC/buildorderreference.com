@@ -13,11 +13,13 @@
 	--color-accent: #a00;
 	--color-border: #ddd;
 	--color-shadow: #ddd;
+	--color-scroll: #b3b3b3;
+	--color-hover: #808080;
 	--button-white-border: #a00;
 	--button-white-thickness: 2px;
 	--button-sepia-border: #b3a680;
 	--button-sepia-thickness: 1px;
-	--button-night-border: black;
+	--button-night-border: #ccc;
 	--button-night-thickness: 1px;}
 
 .theme-sepia {
@@ -29,11 +31,13 @@
 	--color-accent: #a00;
 	--color-border: #e0ddd1;
 	--color-shadow: #e0ddd1;
+	--color-scroll: #c2baa3;
+	--color-hover: #998c66;
 	--button-white-border: #ccc;
 	--button-white-thickness: 1px;
 	--button-sepia-border: #c2baa3;
 	--button-sepia-thickness: 2px;
-	--button-night-border: black;
+	--button-night-border: #ccc;
 	--button-night-thickness: 1px;}
 
 .theme-night {
@@ -45,6 +49,8 @@
 	--color-accent: #c2ad70;
 	--color-border: #454d54;
 	--color-shadow: #171a1c;
+	--color-scroll: #454d54;
+	--color-hover: #5c6670;
 	--button-white-border: #aaa;
 	--button-white-thickness: 1px;
 	--button-sepia-border: #9f8f60;
@@ -54,7 +60,7 @@
 
 /* general */
 
-html {overflow-y: scroll; font-size: max(min(3.2vw, 19px), 13px); font-family: 'Alegreya', serif;}
+html {overflow-y: overlay; font-size: max(min(3.2vw, 19px), 13px); font-family: 'Alegreya', serif;}
 
 body {
 	background-color: var(--color-primary);
@@ -66,8 +72,8 @@ body {
 
 ::-webkit-scrollbar {width: 0.5rem;}
 ::-webkit-scrollbar-track {background: var(--color-secondary);}
-::-webkit-scrollbar-thumb {background: #888;}
-::-webkit-scrollbar-thumb:hover {background: #555;}
+::-webkit-scrollbar-thumb {background: var(--color-scroll);}
+::-webkit-scrollbar-thumb:hover {background: var(--color-hover);}
 
 ::selection {background-color: var(--color-accent); color: var(--color-primary);}
 
@@ -103,8 +109,10 @@ p.box {
 /* buttons */
 
 .button-theme {
-	font-size: 0.7rem;
-	padding: 0.6em;
+	font-size: 1rem;
+	padding: 0.4em;
+	height: 1.15em;
+	width: 1.15em;
 	display: inline-block;
 	margin: 0 0;
 	cursor: pointer;
@@ -117,13 +125,11 @@ p.box {
 	-webkit-box-sizing: border-box;
 }
 
-.button-white {background-color: white; box-shadow: 0 var(--button-white-thickness) var(--button-white-border), var(--button-white-thickness) 0 var(--button-white-border), 0 calc(var(--button-white-thickness) * -1) var(--button-white-border), calc(var(--button-white-thickness) * -1) 0 var(--button-white-border);}
-.button-sepia {background-color: #d6d1c2; box-shadow: 0 var(--button-sepia-thickness) var(--button-sepia-border), var(--button-sepia-thickness) 0 var(--button-sepia-border), 0 calc(var(--button-sepia-thickness) * -1) var(--button-sepia-border), calc(var(--button-sepia-thickness) * -1) 0 var(--button-sepia-border);}
-.button-night {background-color: black; box-shadow: 0 var(--button-night-thickness) var(--button-night-border), var(--button-night-thickness) 0 var(--button-night-border), 0 calc(var(--button-night-thickness) * -1) var(--button-night-border), calc(var(--button-night-thickness) * -1) 0 var(--button-night-border);}
+.button-white {background-color: white; border: var(--button-white-border) solid var(--button-white-thickness);}
+.button-sepia {background-color: #d6d1c2; border: var(--button-sepia-border) solid var(--button-sepia-thickness);}
+.button-night {background-color: black; border: var(--button-night-border) solid var(--button-night-thickness);}
 
-.button-white:active {box-shadow: 0 2px var(--button-white-border), 2px 0 var(--button-white-border), 0 -2px var(--button-white-border), -2px 0 var(--button-white-border);}
-.button-sepia:active {box-shadow: 0 2px var(--button-sepia-border), 2px 0 var(--button-sepia-border), 0 -2px var(--button-sepia-border), -2px 0 var(--button-sepia-border);}
-.button-night:active {box-shadow: 0 2px var(--button-night-border), 2px 0 var(--button-night-border), 0 -2px var(--button-night-border), -2px 0 var(--button-night-border);}
+.button-theme:hover {border-width: 2px;}
 
 .button-print {
 	font-size: 0.8rem;
@@ -137,11 +143,10 @@ p.box {
 	outline: none;
 	vertical-align: top;
 	border: var(--color-border) solid 1px;
-	border-radius: 0.5em;
-	box-shadow: 1px 1px var(--color-border);}
+	border-radius: 0.5em;}
 	
 .button-print:hover {background-color: var(--color-primary);}
-.button-print:active {color: var(--color-font); box-shadow: none;}
+.button-print:active {color: var(--color-font);}
 
 /* header & footer */
 
@@ -170,7 +175,7 @@ footer {
 .headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
 .headerA1 {width: 4em;}
 .headerA2 {width: calc(100% - 8em);}
-.headerA3 {width: 4em; text-align: right; word-spacing: 2px;}
+.headerA3 {width: 4em; text-align: right;}
 
 .headerB1, .headerB2, .headerB3, .headerB4, .headerB5 {float: left; margin-bottom: 0;}
 .headerB1 {width: calc(50% - 5.25em);}
@@ -240,7 +245,7 @@ h2 {
 	margin-bottom: 0.25rem;}
 
 h3 {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	margin-top: 0.5rem;
 	margin-bottom: 0.25rem;}
 
