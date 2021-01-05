@@ -1,4 +1,4 @@
-/* fonts */
+/* import fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
@@ -60,7 +60,11 @@
 
 /* general */
 
-html {overflow-y: overlay; font-size: max(min(3.2vw, 19px), 13px); font-family: 'Alegreya', serif;}
+html {
+	margin-left: calc(100vw - 100%);
+	font-size: max(min(3.2vw, 19px), 13px);
+	font-family: 'Alegreya', serif;
+	overflow-x: hidden;}
 
 body {
 	background-color: var(--color-primary);
@@ -131,6 +135,8 @@ p.box {
 
 .button-theme:hover {border-width: 2px;}
 
+.button-theme + .button-theme + .button-theme {margin-right: 1rem;}
+
 .button-print {
 	font-size: 0.8rem;
 	display: inline-block;
@@ -143,7 +149,8 @@ p.box {
 	outline: none;
 	vertical-align: top;
 	border: var(--color-border) solid 1px;
-	border-radius: 0.5em;}
+	border-radius: 0.5em;
+	margin-right: 1rem;}
 	
 .button-print:hover {background-color: var(--color-primary);}
 .button-print:active {color: var(--color-font);}
@@ -155,8 +162,7 @@ header, footer {
 	background-color: var(--color-secondary);
 	width: 100vw;
 	position: fixed;
-	margin-left: -1rem;
-	margin-right: -1rem;
+	left: 0;
 	padding: 0.1em 0em;}
 	
 header {
@@ -276,7 +282,8 @@ p.bolditalic {
 
 p.comment {
 	text-align: justify;
-	font-size: 0.8rem;}
+	font-size: 0.8rem;
+	width: min(98vw, 40rem);}
 
 /* tables */
 
