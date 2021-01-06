@@ -113,10 +113,9 @@ p.box {
 /* buttons */
 
 .button-theme {
-	font-size: 1rem;
-	padding: 0.4em;
-	height: 1.15em;
-	width: 1.15em;
+	padding: min(8px, 1.3vw);
+	height: min(22px, 3.7vw);
+	width: min(22px, 3.7vw);
 	display: inline-block;
 	margin: 0 0;
 	cursor: pointer;
@@ -124,9 +123,6 @@ p.box {
 	border: none;
 	outline: none;
 	vertical-align: middle;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 }
 
 .button-white {background-color: #fafafa; border: var(--button-white-border) solid var(--button-white-thickness);}
@@ -179,9 +175,9 @@ footer {
 	color: var(--color-font);}
 
 .headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
-.headerA1 {width: 4em;}
-.headerA2 {width: calc(100% - 8em);}
-.headerA3 {width: 4em; text-align: right;}
+.headerA1 {width: 5em;}
+.headerA2 {width: calc(100% - 10em);}
+.headerA3 {width: 5em; text-align: right;}
 
 .headerB1, .headerB2, .headerB3, .headerB4, .headerB5 {float: left; margin-bottom: 0;}
 .headerB1 {width: calc(50% - 5.25em);}
@@ -241,7 +237,7 @@ th, td, ul, li {
 	line-height: 1.3rem;}
 
 h1 {
-	font-size: max(min(4.2vw, 25px), 16px);
+	font-size: min(4.2vw, 25px);
 	margin-top: 0.25rem;
 	margin-bottom: 0;}
 
@@ -277,8 +273,8 @@ p.bolditalic {
 p.comment {
 	text-align: justify;
 	font-size: 0.8rem;
-	width: min(98vw, 40rem);
-	line-height:1rem;}
+	width: min(97vw, 40rem);
+	line-height: 1rem;}
 
 p.centercomment {
 	font-size: 0.8rem;
