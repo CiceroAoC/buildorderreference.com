@@ -107,6 +107,9 @@ p.comment {
 	text-align: justify;
 	font-size: 0.8rem;}
 
+p.centercomment {
+	font-size: 0.8rem;}
+
 /* tables */
 
 table {
@@ -135,6 +138,8 @@ col.buildrhs {width: 3.5rem;}
 col.benchmarklhs {width: 22rem;}
 col.benchmarkrhs {width: 3rem;}
 col.scriptlhs {width: 6rem;}
+
+.breakafter {page-break-after: always;}
 
 /* images */
 

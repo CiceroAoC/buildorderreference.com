@@ -23,16 +23,16 @@
 	--button-night-thickness: 1px;}
 
 .theme-sepia {
-	--color-primary: #f5f4f0;
-	--color-secondary: #ebe8e0;
-	--color-tertiary: #f1efea;
-	--color-font: #2e2a1f;
-	--color-highlight: #4d4633;
-	--color-accent: #a00;
-	--color-border: #e0ddd1;
-	--color-shadow: #e0ddd1;
-	--color-scroll: #c2baa3;
-	--color-hover: #998c66;
+	--color-primary: #f6f3ea;
+	--color-secondary: #f1eddf;
+	--color-tertiary: #f4f1e6;
+	--color-font: #211d12;
+	--color-highlight: #53492d;
+	--color-accent: #a18a45;
+	--color-border: #e8e0c9;
+	--color-shadow: #e3e2dd;
+	--color-scroll: #c9be9c;
+	--color-hover: #b8a87a;
 	--button-white-border: #ccc;
 	--button-white-thickness: 1px;
 	--button-sepia-border: #c2baa3;
@@ -130,7 +130,7 @@ p.box {
 }
 
 .button-white {background-color: white; border: var(--button-white-border) solid var(--button-white-thickness);}
-.button-sepia {background-color: #d6d1c2; border: var(--button-sepia-border) solid var(--button-sepia-thickness);}
+.button-sepia {background-color: #f3efe2; border: var(--button-sepia-border) solid var(--button-sepia-thickness);}
 .button-night {background-color: black; border: var(--button-night-border) solid var(--button-night-thickness);}
 
 .button-theme:hover {border-width: 2px;}
@@ -197,7 +197,7 @@ a:hover {font-weight: 500;}
 a:active {color: var(--color-font);}
 header a {text-decoration: none; font-weight: 500; font-size: 0.95rem;}
 header a:hover {background-color: var(--color-primary); display: block;}
-a.current {color: var(--color-font); font-weight: 500;}
+a.current {color: var(--color-highlight); font-weight: 500;}
 a.anchor {display: block; position: relative; top: -3.5rem; visibility: hidden;}
 
 a.boxlink {
@@ -224,7 +224,7 @@ p, td, ul, li {
 	font-weight: 400;
 	color: var(--color-font);}
 
-th, h1, h2, h3, h4 {
+th, h1, h2, h3 {
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: 500;
@@ -255,12 +255,6 @@ h3 {
 	margin-top: 0.5rem;
 	margin-bottom: 0.25rem;}
 
-h4 {
-	font-size: 1.1rem;
-	margin-top: 0.75rem;
-	margin-bottom: 0;
-	text-decoration: underline;}
-
 ul {
 	display: inline-block;
 	list-style-position: inside;
@@ -283,7 +277,12 @@ p.bolditalic {
 p.comment {
 	text-align: justify;
 	font-size: 0.8rem;
-	width: min(98vw, 40rem);}
+	width: min(98vw, 40rem);
+	line-height:1rem;}
+
+p.centercomment {
+	font-size: 0.8rem;
+	line-height:1rem;}
 
 /* tables */
 
