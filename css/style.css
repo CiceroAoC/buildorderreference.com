@@ -113,9 +113,9 @@ p.box {
 /* buttons */
 
 .button-theme {
-	padding: min(8px, 1.3vw);
-	height: min(22px, 3.7vw);
-	width: min(22px, 3.7vw);
+	padding: min(8px, 1.2vw);
+	height: min(22px, 3.45vw);
+	width: min(22px, 3.45vw);
 	display: inline-block;
 	margin: 0 0;
 	cursor: pointer;
