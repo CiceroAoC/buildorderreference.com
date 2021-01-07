@@ -113,9 +113,9 @@ p.box {
 /* buttons */
 
 .button-theme {
-	padding: min(8px, 1.2vw);
-	height: min(22px, 3.45vw);
-	width: min(22px, 3.45vw);
+	padding: min(8px, 1.4vw);
+	height: min(22px, 4vw);
+	width: min(22px, 4vw);
 	display: inline-block;
 	margin: 0 0;
 	cursor: pointer;
@@ -131,7 +131,7 @@ p.box {
 
 .button-theme:hover {border-width: 2px;}
 
-.button-theme + .button-theme + .button-theme {margin-right: 1rem;}
+.button-theme + .button-theme + .button-theme {margin-right: 0.8rem;}
 
 .button-print {
 	font-size: 0.8rem;
@@ -146,7 +146,7 @@ p.box {
 	vertical-align: top;
 	border: var(--color-border) solid 1px;
 	border-radius: 0.5em;
-	margin-right: 1rem;}
+	margin-right: 0.8rem;}
 	
 .button-print:hover {background-color: var(--color-primary);}
 .button-print:active {color: var(--color-font);}
