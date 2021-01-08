@@ -309,6 +309,13 @@ col.benchmarklhs {width: 22rem;}
 col.benchmarkrhs {width: 3rem;}
 col.scriptlhs {width: 6rem;}
 
+col.perfectlhs {width: 6rem;}
+col.perfectmid {width: 3rem;}
+col.perfectgap {width: 1rem;}
+col.perfectrhs {width: 6rem;}
+
+table.perfect td:nth-child(1) {font-weight: 500;}
+
 /* images */
 
 img.resource {width: 1.5rem; height: 1.5rem; vertical-align: middle;}
