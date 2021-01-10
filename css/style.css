@@ -12,23 +12,25 @@ body {
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;}
 
+br.single {display: block; content: ""; margin-top: 0; margin-bottom: 1rem;}
+
 /* styles */
 
-p, td, ul, li {
+p, td, ul, li, th, h1, h2, h3 {
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;}
+
+p, td, ul, li {
 	font-weight: 400;
 	color: var(--color-font);}
 
 th, h1, h2, h3 {
-	margin-left: auto;
-	margin-right: auto;
 	font-weight: 500;
 	color: var(--color-highlight);}
 
 p {
-	margin-top: 0.25rem;
-	margin-bottom: 0.25rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0;
 	line-height: 1.4rem;}
 
 th, td, ul, li {
@@ -37,19 +39,19 @@ th, td, ul, li {
 	line-height: 1.3rem;}
 
 h1 {
-	font-size: min(4.2vw, 25px);
-	margin-top: 0.25rem;
-	margin-bottom: 0;}
+	font-size: min(4.5vw, 27px);
+	margin-top: 0.1rem;
+	margin-bottom: 0.1;}
 
 h2 {
-	font-size: 1.4rem;
-	margin-top: 0.5rem;
+	font-size: 1.25rem;
+	margin-top: 0.75rem;
 	margin-bottom: 0.25rem;}
 
 h3 {
 	font-size: 1rem;
-	margin-top: 0.5rem;
-	margin-bottom: 0.25rem;}
+	margin-top: 0.75rem;
+	margin-bottom: 0.1rem;}
 
 ul {
 	display: inline-block;
@@ -58,27 +60,13 @@ ul {
 	margin-left: 1.5rem;
 	padding-left: 0;}
 
-p.centerjustify {
-	text-align: justify;
-	-moz-text-align-last: center;
-	text-align-last: center;}
+p.justify, p.centerjustify {text-align: justify;}
+p.centerjustify {-moz-text-align-last: center; text-align-last: center;}
 
-p.justify {
-	text-align: justify;}
+p.bolditalic {font-style: italic; font-weight: 500}
 
-p.bolditalic {
-	font-style: italic;
-	font-weight: 500}
-
-p.comment {
-	text-align: justify;
-	font-size: 0.8rem;
-	width: min(97vw, 40rem);
-	line-height: 1rem;}
-
-p.centercomment {
-	font-size: 0.8rem;
-	line-height:1rem;}
+p.comment, p.centercomment {font-size: 0.8rem; line-height: 1rem;}
+p.comment {width: min(97vw, 40rem); text-align: justify;;}
 
 /* tables */
 
@@ -88,36 +76,32 @@ table {
 	margin-right: auto;
 	padding-top: 1rem;
 	text-size-adjust: none;
-	-webkit-text-size-adjust: none;}
+	-webkit-text-size-adjust: none;
+	border-bottom: 2px solid var(--color-border);}
 
 th {
 	font-weight: bold;
 	color: var(--color-highlight);
 	border-top: 2px solid var(--color-border);}
-	
+
 thead th {
 	border-bottom: 2px solid var(--color-border);}
 
-table.buildtable {border-bottom: 2px solid var(--color-border);}
-table.benchmarktable {border-bottom: 2px solid var(--color-border); padding-top: 1.5rem;}
-
-table.script {width: min(93vw, 50rem);}
-table.script td, table.script th {
-	border-bottom: 1px solid var(--color-border);
-	text-align: left;}
-
 col.buildlhs {width: 26rem; text-align: left;}
 col.buildrhs {width: 3.5rem;}
+
+table.benchmarktable {padding-top: 1.5rem;}
 col.benchmarklhs {width: 22rem;}
 col.benchmarkrhs {width: 3rem;}
+
+table.script {width: min(93vw, 50rem); border-bottom: 1px solid var(--color-border);}
+table.script td, table.script th {border-top: 1px solid var(--color-border); text-align: left;}
 col.scriptlhs {width: 6rem;}
 
-col.perfectlhs {width: 6rem;}
+table.perfect td:nth-child(1) {font-weight: 500;}
+col.perfectlhs, col.perfectrhs {width: 6rem;}
 col.perfectmid {width: 3rem;}
 col.perfectgap {width: 1rem;}
-col.perfectrhs {width: 6rem;}
-
-table.perfect td:nth-child(1) {font-weight: 500;}
 
 /* images */
 

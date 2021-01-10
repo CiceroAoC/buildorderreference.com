@@ -74,7 +74,7 @@ body {
 
 p {width: min(93vw, 50rem);}
 li {width: min(79.05vw, 42.5rem);}
-hr {width: min(55.8vw, 30rem); border: none; height: 2px; background-color: var(--color-border);}
+hr {width: min(79.05vw, 42.5rem); border: none; height: 2px; background-color: var(--color-border);}
 
 .flex-2column, .flex-3column {
 	margin-right: auto;
@@ -201,7 +201,7 @@ a.boxlink:hover {background-color: var(--color-primary);}
 	
 h1.link, h2.link, h3.link {color: var(--color-accent)}
 	
-a.boxlink:active h3 {color: var(--color-font);}
+a.boxlink:active h1, a.boxlink:active h2, a.boxlink:active h3 {color: var(--color-font);}
 
 /* make visible (FOUC) */
 
