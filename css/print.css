@@ -1,10 +1,6 @@
-/* fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+.no-print, .no-print *{display: none !important;}
 
 /* themes */
-	
-@media print {.no-print, .no-print *{display: none !important;}}
 
 :root {
 	--color-primary: white;
@@ -18,135 +14,22 @@
 
 /* general */
 
-html {font-size: 14px; font-family: 'Alegreya', serif;}
+html {font-size: 14px;}
 
 body {
-	background-color: var(--color-primary);
-	text-align: center;
 	margin-top: 2rem;
-	margin-bottom: 2rem;
-	text-size-adjust: none;
-	-webkit-text-size-adjust: none;}
+	margin-bottom: 2rem;}
 
 /* header & footer */
 
 header, footer {display: none;}
 @page :footer, :header {display: none}
-
 @media print { @page { size: auto;  margin: 15mm;}
 
 /* links */
 
 a:link, a:visited {color: var(--color-accent);}
 
-/* styles */
-
-p, td, ul, li {
-	margin-left: auto;
-	margin-right: auto;
-	font-weight: 400;
-	color: var(--color-font);}
-
-th, h1, h2, h3, h4 {
-	margin-left: auto;
-	margin-right: auto;
-	font-weight: 500;
-	color: var(--color-highlight);}
-
-p {
-	margin-top: 0.25rem;
-	margin-bottom: 0.25rem;
-	line-height: 1.4rem;}
-
-th, td, ul, li {
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: 1.3rem;}
-
-h1 {
-	font-size: 1.3rem;
-	margin-top: 0.25rem;
-	margin-bottom: 0;}
-
-h2 {
-	font-size: 1.25rem;
-	margin-top: 0.5rem;
-	margin-bottom: 0.25rem;}
-
-h3 {
-	font-size: 1.2rem;
-	margin-top: 0.5rem;
-	margin-bottom: 0.25rem;}
-
-h4 {
-	font-size: 1.1rem;
-	margin-top: 0.75rem;
-	margin-bottom: 0;
-	text-decoration: underline;}
-
-ul {
-	display: inline-block;
-	list-style-position: inside;
-	text-align: left;
-	margin-left: 1.5rem;
-	padding-left: 0;}
-
-p.centerjustify {
-	text-align: justify;
-	-moz-text-align-last: center;
-	text-align-last: center;}
-
-p.justify {
-	text-align: justify;}
-
-p.bolditalic {
-	font-style: italic;
-	font-weight: 500}
-
-p.comment {
-	text-align: justify;
-	font-size: 0.8rem;}
-
-p.centercomment {
-	font-size: 0.8rem;}
-
 /* tables */
 
-table {
-	border-spacing: 0;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 1rem;
-	text-size-adjust: none;
-	-webkit-text-size-adjust: none;}
-
-th {
-	font-weight: bold;
-	color: var(--color-highlight);
-	border-top: 2px solid var(--color-border);}
-
-table.buildtable {border-bottom: 2px solid var(--color-border);}
-table.benchmarktable {border-bottom: 2px solid var(--color-border); padding-top: 1.5rem;}
-
-table.script {width: min(93vw, 50rem);}
-table.script td, table.script th {
-	border-bottom: 1px solid var(--color-border);
-	text-align: left;}
-
-col.buildlhs {width: 26rem; text-align: left;}
-col.buildrhs {width: 3.5rem;}
-col.benchmarklhs {width: 22rem;}
-col.benchmarkrhs {width: 3rem;}
-col.scriptlhs {width: 6rem;}
-
 .breakafter {page-break-after: always;}
-
-/* images */
-
-img.resource {width: 1.5rem; height: 1.5rem; vertical-align: middle;}
-img.full {width: min(93vw, 50rem); height: min(52.3125vw, 28.125rem); border-radius: 0.25rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
-img.half {width: min(46.5vw, 25rem); height: min(26.15625vw, 14.0625rem); border-radius: 0.25rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
-
-/* make visible (FOUC) */
-
-html {display: block;}
