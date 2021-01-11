@@ -114,10 +114,6 @@ p.box {
 	border: none;
 	outline: none;
 	vertical-align: middle;
-	text-size-adjust: none;
-	-webkit-text-size-adjust: none;
-	-moz-text-size-adjust: none;
-	-ms-text-size-adjust: none;
 }
 
 .button-white {background-color: #fafafa; border: var(--button-white-border) solid var(--button-white-thickness);}
@@ -126,7 +122,7 @@ p.box {
 
 .button-theme:hover {border-width: 2px;}
 
-.button-theme + .button-theme + .button-theme {margin-right: 0.5em;}
+.button-theme + .button-theme + .button-theme {margin-right: 1vw;}
 
 .button-print {
 	font-size: 0.8rem;
@@ -140,8 +136,8 @@ p.box {
 	outline: none;
 	vertical-align: top;
 	border: var(--color-border) solid 1px;
-	border-radius: 0.5em;
-	margin-right: 0.5em;}
+	border-radius: 0.5rem;
+	margin-right: 1vw;}
 	
 .button-print:hover {background-color: var(--color-primary);}
 .button-print:active {color: var(--color-font);}
@@ -154,7 +150,7 @@ header, footer {
 	width: 100vw;
 	position: fixed;
 	left: 0;
-	padding: 0.1em 0em;}
+	padding: 0.1rem 0em;}
 	
 header {
 	margin-top: 0;
@@ -175,13 +171,13 @@ footer {
 
 header h1 {font-size: min(5.6vw, 1.5rem) !important;}
 .headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
-.headerA1, .headerA3 {width: 4em; text-align: right;}
-.headerA2 {width: calc(100% - 8em);}
+.headerA1, .headerA3 {width: 20vw; text-align: right;}
+.headerA2 {width: calc(100% - 40vw);}
 
 header p {font-size: 1.1rem !important;}
 .headerB1, .headerB2, .headerB3 {float: left; margin-bottom: 0;}
-.headerB1, .headerB3 {width: 5em; text-align: right;}
-.headerB2 {width: calc(100% - 10em);}
+.headerB1, .headerB3 {width: 25vw; text-align: right;}
+.headerB2 {width: calc(100% - 50vw);}
 
 /* links */
 
