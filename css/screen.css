@@ -23,7 +23,7 @@
 	--color-secondary: #f1eddf;
 	--color-tertiary: #f4f1e6;
 	--color-font: #211d12;
-	--color-highlight: #53492d;
+	--color-highlight: #423b24;
 	--color-accent: #a36629;
 	--color-border: #e8e0c9;
 	--color-shadow: #e3e2dd;
@@ -62,7 +62,7 @@ html {
 	overflow-x: hidden;}
 
 body {
-	margin-top: 4.5rem;
+	margin-top: 5rem;
 	margin-bottom: 1.5rem;}
 
 ::-webkit-scrollbar {width: 0.5rem;}
@@ -166,24 +166,21 @@ footer {
 	color: var(--color-font);}
 
 .headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
-.headerA1 {width: 5em;}
+.headerA1, .headerA3 {width: 5em; text-align: right;}
 .headerA2 {width: calc(100% - 10em);}
-.headerA3 {width: 5em; text-align: right;}
 
-.headerB1, .headerB2, .headerB3, .headerB4, .headerB5 {float: left; margin-bottom: 0;}
-.headerB1 {width: calc(50% - 5.25em);}
-.headerB2 {width: 3.5em;}
-.headerB3 {width: 3.5em;}
-.headerB4 {width: 3.5em;}
-.headerB5 {width: calc(50% - 5.25em); text-align: right;}
+.headerB1, .headerB2, .headerB3 {float: left; margin-bottom: 0;}
+.headerB1, .headerB3 {width: 6em; text-align: right;}
+.headerB2 {width: calc(100% - 12em);}
+
 
 /* links */
 
 a:link, a:visited {color: var(--color-accent);}
 a:hover {font-weight: 500;}
 a:active {color: var(--color-font);}
-header a {text-decoration: none; font-weight: 500; font-size: 0.95rem;}
-header a:hover {background-color: var(--color-primary); display: block;}
+header a {text-decoration: none; font-weight: 500; font-size: 1.1rem; display: inline-block; padding-left: 0.5em; padding-right: 0.5em;}
+header a:hover {background-color: var(--color-primary);}
 a.current {color: var(--color-highlight); font-weight: 700;}
 a.anchor {display: block; position: relative; top: -3.5rem; visibility: hidden;}
 
