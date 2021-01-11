@@ -173,12 +173,12 @@ footer {
 	bottom: 0;
 	color: var(--color-font);}
 
-header h1 {font-size: min(5.6vw, 1.5rem);}
+header h1 {font-size: min(5.6vw, 1.5rem) !important;}
 .headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
 .headerA1, .headerA3 {width: 4em; text-align: right;}
 .headerA2 {width: calc(100% - 8em);}
 
-header p {font-size: 1.1rem;}
+header p {font-size: 1.1rem !important;}
 .headerB1, .headerB2, .headerB3 {float: left; margin-bottom: 0;}
 .headerB1, .headerB3 {width: 5em; text-align: right;}
 .headerB2 {width: calc(100% - 10em);}
