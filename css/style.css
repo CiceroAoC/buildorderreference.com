@@ -68,8 +68,6 @@ ul {
 	margin-left: 1.5rem;
 	padding-left: 0;}
 
-p.small, td.small, th.small, h1.small, h2.small, h3.small, h4.small {font-family: 'Alegreya SC', serif;}
-
 p.justify, p.centerjustify {text-align: justify;}
 p.centerjustify {-moz-text-align-last: center; text-align-last: center;}
 
@@ -99,6 +97,8 @@ thead th {
 
 col.buildlhs {width: 26rem; text-align: left;}
 col.buildrhs {width: 3.5rem;}
+th.agehead {font-family: 'Alegreya SC', serif;}
+th.advhead {font-style: italic;}
 
 table.benchmarktable {padding-top: 1.5rem;}
 col.benchmarklhs {width: 22rem;}
