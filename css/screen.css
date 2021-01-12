@@ -184,6 +184,7 @@ footer {
 	align-items: center;
 	justify-content: stretch;}
 
+.header-title h1 {font-size: min(5.7vw, 1.5rem)}
 .header-title {grid-area: header-title; justify-self: center;}
 .header-theme {grid-area: header-theme; justify-self: right;}
 .header-menu {grid-area: header-menu; justify-self: center; font-size: 1.1rem;}
