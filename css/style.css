@@ -41,7 +41,7 @@ th, td, ul, li {
 	line-height: 1.3rem;}
 
 h1 {
-	font-size: 1.4rem;
+	font-size: min(5.7vw, 1.5rem);
 	margin-top: 0.1rem;
 	margin-bottom: 0.1rem;}
 
@@ -101,8 +101,8 @@ thead th {
 
 col.buildlhs {width: 26rem; text-align: left;}
 col.buildrhs {width: 3.5rem;}
-th.agehead {font-family: 'Alegreya SC', serif;}
-th.advhead {font-style: italic;}
+.agehead {font-family: 'Alegreya SC', serif;}
+.advhead {font-style: italic;}
 
 table.benchmarktable {padding-top: 1.5rem;}
 col.benchmarklhs {width: 22rem;}

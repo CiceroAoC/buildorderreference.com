@@ -104,9 +104,9 @@ p.box {
 /* buttons */
 
 .button-theme {
-	padding: min(8px, 1.4vw);
-	height: min(22px, 4vw);
-	width: min(22px, 4vw);
+	padding: 0.4rem;
+	height: 1.15rem;
+	width: 1.15rem;
 	display: inline-block;
 	margin: 0 0;
 	cursor: pointer;
@@ -169,15 +169,21 @@ footer {
 	bottom: 0;
 	color: var(--color-font);}
 
-header h1 {font-size: min(5.6vw, 1.5rem) !important;}
-.headerA1, .headerA2, .headerA3 {float: left; margin-bottom: 0;}
-.headerA1, .headerA3 {width: 20vw; text-align: right;}
-.headerA2 {width: calc(100% - 40vw);}
+.header {
+	display: grid;
+	grid-template-columns: 23vw 1fr 23vw;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+		". header-title header-theme"
+		". header-menu header-print";
+	grid-gap: 0;
+	align-items: center;
+	justify-content: stretch;}
 
-header p {font-size: 1.1rem !important;}
-.headerB1, .headerB2, .headerB3 {float: left; margin-bottom: 0;}
-.headerB1, .headerB3 {width: 25vw; text-align: right;}
-.headerB2 {width: calc(100% - 50vw);}
+.header-title {grid-area: header-title; justify-self: center;}
+.header-theme {grid-area: header-theme; justify-self: right;}
+.header-menu {grid-area: header-menu; justify-self: center; font-size: 1.1rem;}
+.header-print {grid-area: header-print; justify-self: right;}
 
 /* links */
 
