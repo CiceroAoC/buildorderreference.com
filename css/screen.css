@@ -66,7 +66,7 @@ html {
 	-ms-text-size-adjust: none;}
 
 body {
-	margin-top: 5rem;
+	margin-top: 4.5rem;
 	margin-bottom: 1.5rem;}
 
 ::-webkit-scrollbar {width: 0.5rem;}
@@ -77,13 +77,13 @@ body {
 ::selection {background-color: var(--color-accent); color: var(--color-primary);}
 
 p {width: min(93vw, 50rem);}
-li {width: min(79.05vw, 42.5rem);}
-hr {width: min(79.05vw, 42.5rem); border: none; height: 2px; background-color: var(--color-border);}
+li {width: min(80vw, 42.5rem);}
+hr {width: min(80vw, 42.5rem); border: none; height: 2px; background-color: var(--color-border);}
 
 .flex-2column, .flex-3column {
 	margin-right: auto;
 	margin-left: auto;
-	width: min(96.72vw, 52rem);
+	width: min(96vw, 52rem);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -184,7 +184,6 @@ footer {
 	align-items: center;
 	justify-content: stretch;}
 
-.header-title h1 {font-size: min(5.7vw, 1.5rem) !important;}
 .header-title {grid-area: header-title; justify-self: center;}
 .header-theme {grid-area: header-theme; justify-self: right;}
 .header-menu {grid-area: header-menu; justify-self: center; font-size: 1.1rem;}

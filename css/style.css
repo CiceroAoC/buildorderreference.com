@@ -37,12 +37,12 @@ th, td, ul, li {
 	line-height: 1.3rem;}
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	margin-top: 0.1rem;
 	margin-bottom: 0.1rem;}
 
 h2 {
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 	margin-top: 0.75rem;
 	margin-bottom: 0.25rem;}
 
@@ -52,7 +52,7 @@ h3 {
 	margin-bottom: 0.1rem;}
 
 h4 {
-	font-size: 1.1rem;
+	font-size: 1.15rem;
 	font-weight: 400;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;}
@@ -64,7 +64,10 @@ ul {
 	list-style-position: inside;
 	text-align: left;
 	margin-left: 1.5rem;
+	margin-top: 0.25rem;
 	padding-left: 0;}
+
+ul ul {margin-top: 0;}
 
 p.justify, p.centerjustify {text-align: justify;}
 p.centerjustify {-moz-text-align-last: center; text-align-last: center;}
