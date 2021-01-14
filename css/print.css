@@ -24,7 +24,7 @@ body {
 
 header, footer {display: none;}
 @page :footer, :header {display: none}
-@media print { @page { size: auto;  margin: 15mm;}
+@page {size: auto;  margin: 15mm;}
 
 /* links */
 
