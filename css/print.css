@@ -16,9 +16,9 @@
 
 html {font-size: 14px;}
 
-body {
-	margin-top: 2rem;
-	margin-bottom: 2rem;}
+body {margin-top: 2rem; margin-bottom: 2rem;}
+
+.breakafter {page-break-after: always;}
 
 /* header & footer */
 
@@ -29,7 +29,3 @@ header, footer {display: none;}
 /* links */
 
 a:link, a:visited {color: var(--color-accent);}
-
-/* tables */
-
-.breakafter {page-break-after: always;}
