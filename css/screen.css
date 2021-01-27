@@ -80,23 +80,6 @@ p {width: min(93vw, 50rem);}
 li {width: min(80vw, 42.5rem);}
 hr {width: min(80vw, 42.5rem); border: none; height: 2px; background-color: var(--color-border);}
 
-.flex-2column, .flex-3column {
-	margin-right: auto;
-	margin-left: auto;
-	width: min(96vw, 52rem);
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	color: var(--color-font);
-	align-items: flex-start;
-	text-align: justify;
-	-moz-text-align-last: center;
-	text-align-last: center;}
-
-.flex-3column div{min-width: min(calc(33vw - 2.4rem), 15.2rem);}
-
-@media (max-width: 64em) {.flex-2column {flex-direction: column;}}
-
 p.box {
 	background-color: var(--color-tertiary);
 	border: 1px solid var(--color-border);
@@ -200,11 +183,13 @@ a.current {color: var(--color-highlight); font-weight: 700;}
 a.anchor {display: block; position: relative; top: -3.5rem; visibility: hidden;}
 
 a.boxlink {
+	width: min(96vw, 52rem);
+	margin-right: auto;
+	margin-left: auto;
 	display: block;
 	text-decoration: none;
 	font-weight: 400;
 	color: var(--color-font);
-	margin: 0.5rem;
 	padding: 0.5rem;
 	background-color: var(--color-tertiary);
 	border: 1px solid var(--color-border);}
@@ -214,6 +199,23 @@ a.boxlink:hover {background-color: var(--color-primary);}
 h1.link, h2.link, h3.link {color: var(--color-accent)}
 	
 a.boxlink:active h1, a.boxlink:active h2, a.boxlink:active h3 {color: var(--color-font);}
+
+.flex-2column, .flex-3column {
+	margin-right: auto;
+	margin-left: auto;
+	width: min(96vw, 52rem);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: var(--color-font);
+	align-items: flex-start;
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;}
+
+.flex-3column div{min-width: min(calc(33vw - 2.4rem), 15.2rem);}
+
+@media (max-width: 64em) {.flex-2column {flex-direction: column;}}
 
 /* make visible (FOUC) */
 
