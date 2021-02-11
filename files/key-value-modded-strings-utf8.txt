@@ -96,6 +96,7 @@
 
 714201 "Now send more villagers to wood, until you have 8 on wood."
 714204 "Now send the rest to sheep. Continue to move villagers to farms, until you have about 8 farms."
+714205 "Now move 4 villagers to gold."
 714206 "Now build a range and a blacksmith. Send the next 2 villagers to gold. You should then be able to click up to the Castle age."
 
 715011 "Now send more villagers to wood, until you have 9 villagers split between 2 lumber camps."
@@ -1025,3 +1026,10 @@
 740815 "<ORANGE>3 fire galleys, 8 archers + fletching: D"
 740816 "<ORANGE>3 fire galleys, 8 archers + fletching: E"
 740817 "<RED>3 fire galleys, 8 archers + fletching: F"
+
+// Misc
+
+750001 "<TC Idle> seconds of idle TC"
+750002 "<TC Idle> seconds of idle TC in Dark Age"
+750003 "<TCs Idle> seconds of idle TC"
+750004 "<TCs Idle> seconds of idle TC"
