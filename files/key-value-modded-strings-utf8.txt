@@ -1029,9 +1029,6 @@
 
 // Descriptions
 
-750000 "
-Benchmarks"
-
 750001 "Classic build. Scouts can gain early map control, do early damage before walls go up, and can effectively kill off small groups of archers/skirms. This has been superseded by faster versions of the build in competitive play, but remains a great place for newer players to start due to its straightforward eco setup."
 
 750002 "This build is about building and being able to produce archers from two ranges upon hitting Feudal, with fletching coming in soon after. It is a 'slower' build as you need to build a mass of archers with fletching for them to be effective. This build is especially effective against less advanced players, and is also worth learning for team games as flank."
@@ -1055,6 +1052,7 @@ Benchmarks"
 750011 "A drush can be used to buy time to perform a fast Castle, though you usually want to have a good map. Your ecomomy is quite stretched when you reach Castle, so you usually have to delay either bow saw and bodkin arrow."
 
 750012 "The Chinese start is worth practising as it is fairly difficult, and their starting 'bonus' can actually put you behind if you are not practiced with it. Scouts are considered their standard opening for 1v1."
+
 750013 "Another Chinese start to practice which is worth knowing for flank position in team games. This is just one way of adapting the archer build for them."
 
 750014 "Fish are always worth fighting for, and on a full-water map losing water often means losing the game. Therefore this build is about full commitment toward winning water, having the player produce ships from three docks in Feudal. For simplicity, the scenario just has you produce fire galleys, but mixing in demos and/or switching to galleys is also viable. Fletching is important if making galleys."
