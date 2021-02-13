@@ -1027,9 +1027,43 @@
 740816 "<ORANGE>3 fire galleys, 8 archers + fletching: E"
 740817 "<RED>3 fire galleys, 8 archers + fletching: F"
 
-// Misc
+// Descriptions
 
-750001 "<TC Idle> seconds of idle TC"
-750002 "<TC Idle> seconds of idle TC in Dark Age"
-750003 "<TCs Idle> seconds of idle TC"
-750004 "<TCs Idle> seconds of idle TC"
+750001 "Classic build. Scouts can gain early map control, do early damage before walls go up, and can effectively kill off small groups of archers/skirms. This has been superseded by faster versions of the build in competitive play, but remains a great place for newer players to start due to its straightforward eco setup."
+
+750002 "This build is about building and being able to produce archers from two ranges upon hitting Feudal, with fletching coming in soon after. It is a 'slower' build as you need to build a mass of archers with fletching for them to be effective. This build is especially effective against less advanced players, and is also worth learning for team games as flank."
+
+750003 "Not suitable for 1v1 except at lower levels. This build is primarily used for pocket position in team games, with knights being ideal from this position due to their mobility. The build allows for at least six knights to be produced from both stables, so that they can quickly get to where they are needed. You can then either pause knight production while you add more town centers or stay on one town center to produce even more knights. Note that higher levels players are more likely to go scouts from pocket on Arabia."
+
+750004 "Place two extra town centers upon hitting Castle and maintain production from all three. In Castle, set all gather points to wood, and build farms as soon as wood becomes available. Leaving villagers on gold means food can be bought if needed, or stone for a fourth town center later on. Although this type of build should usually only used on closed maps, booming is an important skill in general for any map."
+
+750005 "A more competitive version of the basic scouts build, although faster builds are also common especially when using deer or civs with an eco bonus. In 1v1, a transition into ranged units might needed, but going straight for Castle age after making the scouts can be viable too. Scouts into knights is standard for pocket play at higher levels."
+
+750006 "If an opponnent is able to mass enough archers, a transition to ranges may be needed after opening with scouts. Making your own archers is usually not the best option as you will just be behind in numbers, so skirmishers are often the better choice, especially since they produce faster and therefore only require one range. Researching the armour upgrade as well will make them almost impervious to archers."
+
+750007 "This build is mostly seen in extended scout wars. Archers with fletching are a powerful addition your Feudal army, but will also delay your castle time. It is also more commonly used by civs such as Huns which benefit from opening scouts, but then want to switch into cav archers in Castle for example."
+
+750008 "A more competitive version of the archers build, primarily used in team games from flank. It is also good preparation for the men-at-arms and drush builds which are more commonly used in 1v1. This build allows for two range archer production upon hitting Feudal with early fletching, with horse collar often being skipped."
+
+750009 "This build involves creating three (or four) militia while advancing, and researching the men-at-arms upgrade upon hitting Feudal. Men-at-arms have a relatively short time-window in early Feudal where they can do significant damage if not walled out, so this build is one way of buying time to mass archers, since your opponent is usually forced to deal with the men-at-arms in their base first. This version has you stay on one range in Feudal for a faster Castle time, but two ranges ealier is also viable - other scenarios in this guide demonstrate how to set up eco for two range production. The more farms you make before adding the second range, the better your castle time should be. Making at least a few skirms vs archers is often recommended in 1v1, but this scenario has you only make archers for simplicity."
+
+750010 "Since straight archers is usually too slow a build for 1v1, you usually want to open with something else to buy time to mass them. Therefore, the main purpose of a Dark age rush is to harass a delay your opponent with your three militia; any villager kills are a bonus."
+
+750011 "A drush can be used to buy time to perform a fast Castle, though you usually want to have a good map. Your ecomomy is quite stretched when you reach Castle, so you usually have to delay either bow saw and bodkin arrow."
+
+750012 "The Chinese start is worth practising as it is fairly difficult, and their starting 'bonus' can actually put you behind if you are not practiced with it. Scouts are considered their standard opening for 1v1."
+750013 "Another Chinese start to practice which is worth knowing for flank position in team games. This is just one way of adapting the archer build for them."
+
+750014 "Fish are always worth fighting for, and on a full-water map losing water often means losing the game. Therefore this build is about full commitment toward winning water, having the player produce ships from three docks in Feudal. For simplicity, the scenario just has you produce fire galleys, but mixing in demos and/or switching to galleys is also viable. Fletching is important if making galleys."
+
+750015 "Just one possibility for how to go land aggression with fish. Fish are always worth fighting for, even with maps on which most of the aggression will take place on land. Despite investing into fire galleys to protect your fish, your archers are only slightly delayed and you can reach castle significantly earlier when comparing to the standard archer build."
+
+750016 "Mainly for pocket position in Arena teamgames. Buying food is needed in early castle to keep town centers working. Could switch to a 4TC boom by banking wood after 16-18 farms (and buying 100 stone), but this delays your Imperial time. This build is used for an earlier push which doesn't require such a huge economy behind it."
+
+750017 "Only use when no possibility of needing to defend - this is an important build for pocket position in Arena teamgames. This build has a later Imperial time than a 3TC boom, but is needed for the more expensive unit compositions. Some versions of the build involve getting heavy plow when you hit castle which slightly delays your boom, but is worth considering if you are going for a food-heavy unit composition."
+
+750018 "An important strategy for 1v1 arena. Scouts are made to pick off enemy monks, so the player can secure the relics for themselves. Often you will want to invest into more scouts and upgrades than this scenario requires, but this depends on how much your opponent is investing into securing relics. This version has you transition into a boom, but more aggression options can also be viable."
+
+750019 "This version of the build is for a food/gold unique unit such as Spanish Conquistadors, or Turk Janissaries, but the build could also be adapted for a wood/gold unit. Often this build will be followed up by forward siege."
+
+750020 "Gunpowder units are used in this build as they don't require upgrades, and Turks can produce them immediately due to their free chemistry. Turks are therefore one of the few somewhat viable civs for a Fast Imperial - though be aware that this build can usually be countered by more experienced players."
