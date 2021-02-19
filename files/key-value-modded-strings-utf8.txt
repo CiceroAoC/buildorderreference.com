@@ -23,6 +23,7 @@
 // Militia
 // Knights
 // Skirms
+// Spears
 // Fishing Ships
 // Fire Galleys
 // Relics Captured
@@ -238,6 +239,9 @@
 719203 "Now start making archers. Once you have 2 ranges you should also build a blacksmith for fletching."
 719204 "Your next villagers should go to sheep and berries. You no longer need as many villagers on wood, so move villages from wood to food until you have only 10 on wood."
 
+719301 "Now click Feudal with 20 population."
+719302 "Now research loom, and then click Feudal with 20 population."
+
 // Parameters
 
 720000 "Instructions"
@@ -274,7 +278,9 @@
 720050 "- <Farmers>/10 on Farms"
 720051 "- <Farmers>/11 on Farms"
 720052 "- <Farmers>/12 on Farms"
+720053 "- <Farmers>/13 on Farms"
 720054 "- <Farmers>/14 on Farms"
+720055 "- <Farmers>/15 on Farms"
 720056 "- <Farmers>/16 on Farms"
 720058 "- <Farmers>/18 on Farms"
 720063 "- <Lumberjacks>/3 on Wood"
@@ -433,6 +439,7 @@
 720282 "<BBCs>/3 Bombard Cannons"
 720283 "<Archers>/5 Archers"
 720285 "<Archers>/10 Archers"
+720286 "<Spears>/1 Spearmen"
 
 // Objectives
 
@@ -823,6 +830,15 @@
 730836 "(III) Click Castle with 16 archers: E"
 730837 "(III) Click Castle with 16 archers: F"
 
+730840 "(I) 20 pop Feudal"
+730841 "(I) 20 pop Feudal: A+"
+730842 "(I) 20 pop Feudal: A"
+730843 "(I) 20 pop Feudal: B"
+730844 "(I) 20 pop Feudal: C"
+730845 "(I) 20 pop Feudal: D"
+730846 "(I) 20 pop Feudal: E"
+730847 "(I) 20 pop Feudal: F"
+
 730900 "(III) Final Grade: F"
 
 // Grades
@@ -1027,6 +1043,14 @@
 740816 "<ORANGE>3 fire galleys, 8 archers + fletching: E"
 740817 "<RED>3 fire galleys, 8 archers + fletching: F"
 
+740841 "<GREEN>20 pop Feudal: A+"
+740842 "<GREEN>20 pop Feudal: A"
+740843 "<YELLOW>20 pop Feudal: B"
+740844 "<YELLOW>20 pop Feudal: C"
+740845 "<ORANGE>20 pop Feudal: D"
+740846 "<ORANGE>20 pop Feudal: E"
+740847 "<RED>20 pop Feudal: F"
+
 // Descriptions
 
 750001 "Classic build. Scouts can gain early map control, do early damage before walls go up, and can effectively kill off small groups of archers/skirms. This has been superseded by faster versions of the build in competitive play, but remains a great place for newer players to start due to its straightforward eco setup."
@@ -1068,3 +1092,5 @@
 750019 "This version of the build is for a food/gold unique unit such as Spanish Conquistadors, or Turk Janissaries, but the build could also be adapted for a wood/gold unit. Often this build will be followed up by forward siege."
 
 750020 "Gunpowder units are used in this build as they don't require upgrades, and Turks can produce them immediately due to their free chemistry. Turks are therefore one of the few somewhat viable civs for a Fast Imperial - though be aware that this build can usually be countered by more experienced players."
+
+750021 "Without a civ bonus or deer you will struggle to get constant scout production, so this build is about doing damage with your first few scouts before walls can go up. (You can also try to make use of the +2 attack your starting scout gets upon hitting Feudal.) This build is significantly better with good scout civs, since they usually have some eco bonus."
