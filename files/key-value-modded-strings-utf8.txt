@@ -368,6 +368,7 @@
 
 // Objectives
 
+720199 "<Civilian Population>/19 Villagers"
 720200 "<Civilian Population>/20 Villagers"
 720201 "<Civilian Population>/21 Villagers"
 720202 "<Civilian Population>/22 Villagers"
@@ -577,6 +578,15 @@
 730455 "(III) 5 archers + fletching: D"
 730456 "(III) 5 archers + fletching: E"
 730457 "(III) 5 archers + fletching: F"
+
+730460 "(II) 4 scouts + 1 spearman"
+730461 "(II) 4 scouts + 1 spearman: A+"
+730462 "(II) 4 scouts + 1 spearman: A"
+730463 "(II) 4 scouts + 1 spearman: B"
+730464 "(II) 4 scouts + 1 spearman: C"
+730465 "(II) 4 scouts + 1 spearman: D"
+730466 "(II) 4 scouts + 1 spearman: E"
+730467 "(II) 4 scouts + 1 spearman: F"
 
 730510 "(III) Click Castle"
 730511 "(III) Click Castle: A+"
@@ -970,6 +980,14 @@
 740455 "<ORANGE>5 archers + fletching: D"
 740456 "<ORANGE>5 archers + fletching: E"
 740457 "<RED>5 archers + fletching: F"
+
+740461 "<GREEN>4 scouts + 1 spearman: A+"
+740462 "<GREEN>4 scouts + 1 spearman: A"
+740463 "<YELLOW>4 scouts + 1 spearman: B"
+740464 "<YELLOW>4 scouts + 1 spearman: C"
+740465 "<ORANGE>4 scouts + 1 spearman: D"
+740466 "<ORANGE>4 scouts + 1 spearman: E"
+740467 "<RED>4 scouts + 1 spearman: F"
 
 740611 "<GREEN>27+2 pop Castle: A+"
 740612 "<GREEN>27+2 pop Castle: A"
