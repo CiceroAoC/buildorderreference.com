@@ -34,6 +34,9 @@
 // GREEN
 // YELLOW
 // ORANGE
+// Idle Dark
+// Idle Feudal
+// Idle Castle
 
 // GLHF :)
 
@@ -1068,3 +1071,9 @@
 750019 "This version of the build is for a food/gold unique unit such as Spanish Conquistadors, or Turk Janissaries, but the build could also be adapted for a wood/gold unit. Often this build will be followed up by forward siege."
 
 750020 "Gunpowder units are used in this build as they don't require upgrades, and Turks can produce them immediately due to their free chemistry. Turks are therefore one of the few somewhat viable civs for a Fast Imperial - though be aware that this build can usually be countered by more experienced players."
+
+//Misc
+
+760000 "<Idle Dark> seconds of idle TC in Dark Age"
+760001 "<Idle Feudal> seconds of idle TC in Feudal Age"
+760002 "<Idle Castle> seconds of idle TC in Castle Age"
