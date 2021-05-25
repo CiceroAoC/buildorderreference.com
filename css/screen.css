@@ -163,8 +163,8 @@ footer {
 	grid-template-columns: 23vw 1fr 23vw;
 	grid-template-rows: auto auto;
 	grid-template-areas:
-		". header-title header-theme"
-		". header-menu header-print";
+		"header-adspace header-title header-theme"
+		"header-adspace header-menu header-print";
 	grid-gap: 0;
 	align-items: center;
 	justify-content: stretch;}
