@@ -158,6 +158,12 @@ footer {
 	bottom: 0;
 	color: var(--color-font);}
 
+.header-adspace {grid-area: header-adspace; justify-self: left;}
+.header-title {grid-area: header-title; justify-self: center;}
+.header-theme {grid-area: header-theme; justify-self: right;}
+.header-menu {grid-area: header-menu; justify-self: center; font-size: 1.1rem;}
+.header-print {grid-area: header-print; justify-self: right;}
+
 .header {
 	display: grid;
 	grid-template-columns: 23vw 1fr 23vw;
@@ -168,12 +174,6 @@ footer {
 	grid-gap: 0;
 	align-items: center;
 	justify-content: stretch;}
-
-.header-adspace {grid-area: header-adspace; justify-self: left;}
-.header-title {grid-area: header-title; justify-self: center;}
-.header-theme {grid-area: header-theme; justify-self: right;}
-.header-menu {grid-area: header-menu; justify-self: center; font-size: 1.1rem;}
-.header-print {grid-area: header-print; justify-self: right;}
 
 /* links */
 
