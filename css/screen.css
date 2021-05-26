@@ -226,4 +226,4 @@ html {display: block;}
 
 /* ads */
 
-@media screen and (max-width: 800px) {div.header-title {display: none;}}
+@media (max-width: 840px) {div.header-adspace {display: none;}}
