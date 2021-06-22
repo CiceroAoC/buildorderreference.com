@@ -12,11 +12,7 @@ function setNight() {
 	setTheme('theme-night');}
 
 (function () {
-	if (localStorage.getItem('theme') === 'theme-white') {setTheme('theme-white');}})();
-(function () {
-	if (localStorage.getItem('theme') === 'theme-sepia') {setTheme('theme-sepia');}})();
-(function () {
-	if (localStorage.getItem('theme') === 'theme-night') {setTheme('theme-night');}})();
+	{setTheme(localStorage.getItem('theme'));}})();
 	
 function windowPrint() {
 	window.print();}
