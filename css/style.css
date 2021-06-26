@@ -93,7 +93,7 @@ th {
 thead th {
 	border-bottom: 2px solid var(--color-border);}
 
-col.buildlhs {width: 26rem; text-align: left;}
+col.buildlhs {width: 26rem;}
 col.buildrhs {width: 3.5rem;}
 .agehead {font-family: 'Alegreya SC', serif;}
 .advhead {font-style: italic;}
@@ -110,6 +110,12 @@ table.perfect td:nth-child(1) {font-weight: 500;}
 col.perfectlhs, col.perfectrhs {width: 6rem;}
 col.perfectmid {width: 3rem;}
 col.perfectgap {width: 1rem;}
+
+table.hotkey {border-bottom: 1px solid var(--color-border);}
+table.hotkey td, table.script th {border-top: 1px solid var(--color-border);}
+
+col.hotkeylhs {width: 13rem; text-align: left;}
+col.hotkeyrhs {width: 9rem;}
 
 /* images */
 
